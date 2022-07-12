@@ -1,0 +1,52 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5vh;
+    color: rgb(116, 117, 122);
+    text-decoration:underline;
+    padding: 1rem;
+}
+
+.skills-card{
+    width: 250px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+    justify-content: space-between;
+}
+
+.skills-imagen{
+    display: flex;
+    height: 200px;
+    width: auto;
+    background: #f0f0f0;
+    justify-content: center;
+
+}
+
+.skills-imagen img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.skills-detalles{
+    padding: 5px;
+}
+.skills-detalles h3{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 18px;
+    color: black;
+}
+
+.card-progeso label {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-right: 10px;
+        font-size: 1rem;
+    }

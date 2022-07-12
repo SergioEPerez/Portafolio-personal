@@ -1,0 +1,119 @@
+.contacto{
+    background-color: #746CFE;
+    padding: 2px;
+    margin-bottom: 3rem;
+}
+
+.contacto-form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 2rem;
+    padding-bottom: 2 rem;  
+    background-color: #242132;
+    padding: 1rem;
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+    color: #fbfbfb;
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #fbfbfb;  
+  }
+  
+  
+  .contacto-form h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+  
+  .contacto-form h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #fbfbfb;   
+  }
+  
+  
+  .contacto-form p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px; 
+    color: #fbfbfb; 
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }

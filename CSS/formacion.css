@@ -1,0 +1,57 @@
+.formacion{
+    padding: 1rem;
+    margin: auto;
+
+}
+
+.formacion h2{
+    font-family:  'Roboto Mono', monospace;
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    padding: 3vh;
+}
+
+.formacion-items{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 3vh;
+}
+
+
+/*TABLA CURSOS*/
+.cursos-container table{
+    background-color: #AE8CFA;
+    border-radius: 24px;
+    color: #242132;
+    text-align: left;
+    width: min-content;
+    margin: auto;
+
+}
+
+th, td{
+    padding: 3vh;
+}
+
+thead{
+    background-color: #746CFE;
+}
+
+.button-certificacion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: solid 4px #242132;
+    border-radius: 10px;
+    background-color: #746CFE;
+}
+
+.certificacion{
+    text-align: center;
+}

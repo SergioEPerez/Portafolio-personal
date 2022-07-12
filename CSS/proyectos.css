@@ -1,0 +1,54 @@
+.proyectos{
+    padding: 2rem;
+}
+
+.proyectos h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    padding: 3vh;
+    margin-bottom: 3vh;
+}
+.proyectos img{
+    width: 350px;
+    height: 300px;
+    box-shadow: 8px -8px rgba(175, 175, 175, 0.582);
+
+}
+
+.proyectos h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.proyectos p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+
+}
+.proyecto1{
+    display: flex;
+    margin-bottom: 4rem;
+}
+.descripcion-proyecto1{
+    
+    width: 50%;
+    display: block;
+    padding: 2rem;
+}
+
+.proyecto2{
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: end;
+
+
+}
+.descripcion-proyecto2{
+    width: 50%;
+    display: block;
+    padding: 2rem;
+}
