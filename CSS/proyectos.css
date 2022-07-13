@@ -11,8 +11,8 @@
     margin-bottom: 3vh;
 }
 .proyectos img{
-    width: 350px;
-    height: 300px;
+    width: 19rem;
+    height: 15rem;
     box-shadow: 8px -8px rgba(175, 175, 175, 0.582);
 
 }
@@ -33,11 +33,12 @@
     display: flex;
     margin-bottom: 4rem;
 }
-.descripcion-proyecto1{
+.descripcion-proyecto{
     
-    width: 50%;
+    width: auto;
     display: block;
-    padding: 2rem;
+    padding: 1rem 1rem 0 1rem;
+
 }
 
 .proyecto2{
@@ -47,8 +48,4 @@
 
 
 }
-.descripcion-proyecto2{
-    width: 50%;
-    display: block;
-    padding: 2rem;
-}
+

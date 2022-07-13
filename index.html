@@ -271,16 +271,16 @@
 
     <section class="proyectos" id="proyectos">
         <h2>MIS PROYECTOS</h2>
-        <div class="proyecto1">
+        <div class="proyecto1" id="proyecto">
             <img src="IMG/proyecto1.png" alt="proyecto1">
-            <div class="descripcion-proyecto1">
+            <div class="descripcion-proyecto">
                 <h3>Proyecto Integrador - Codo a Codo 4.0</h3>
                 <p>Codo a Codo 4.0 es un programa de capacitación en prograamación Full Stack Java, desarrollado por el GCBA. En esta web ficticia, puse en práctica lo aprendido durante el curso, entre lo que destacan diferentes páginas y una para la venta de tickets, utilizando Javascript, que calcula los valores de los mismos según la cantidad y descuentos aplicados. <a href="https://sergioeperez.github.io/CodoaCodo-ProyectoIntegrador/index.html" target="_blank">Conocer más</a></p>
             </div>
         </div>
 
-        <div class="proyecto2">
-            <div class="descripcion-proyecto2">
+        <div class="proyecto2" id="proyecto">
+            <div class="descripcion-proyecto">
                 <h3>Encriptador de texto</h3>
                 <p>Culquier texto ingresado por el usuario, puede ser encriptado o desencriptado, siempre y cuando se utilice el mismo código. El encriptador fue desarrollado con HTML, CSS y JavaScript. <a href="https://sergioeperez.github.io/Encriptador-de-texto/" target="_blank">Conocer más</a></p>
             </div>
@@ -290,13 +290,13 @@
     </section>
 
     <section class="contacto">
-        <div class="contacto-form">
+        <div class="contacto-form" id="contacto-form">
             <div class="formulario">      
               <h2>Formulario de contacto</h2>
                 <h3>¿En qué puedo ayudarte?Escríbeme y en breve me pondré en contacto contigo.</h3>
         
         
-                  <form action="mailto:sergioe.perezlabougle@gmail.com" method="post">       
+                  <form action="mailto:sergioe.perezlabougle@gmail.com" autocomplete="on" method="post">       
         
                     
                         <p>
@@ -311,12 +311,6 @@
                             <span class="obligatorio">*</span>
                           </label>
                             <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>
-                    
-                        <p>
-                          <label for="telefone" class="colocar_telefono">Teléfono
-                          </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                         </p>    
                       
                         <p>
